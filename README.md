@@ -1,0 +1,2 @@
+# Skior
+igra sus skior
