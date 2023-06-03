@@ -7,7 +7,7 @@ public class Geroi {
 	private String markanaskite;
 	
 	
-	//Êîíñòðóêòîðè
+	//ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð¸
 	
 	public Geroi () {
 		
@@ -66,7 +66,7 @@ public class Geroi {
 		System.out.println("   _________ZZZZZZ_________//_//");
 		System.out.println("------------------------------------");
 	}
-	// getter - è
+	// getter-Ð¸ - setter-Ð¸
 	public String getIme() {
 		return ime;
 	}
@@ -83,16 +83,16 @@ public class Geroi {
 		return duljinanaskite;
 	}
 	
-	// setter - è
+	// setter - Ã¨
 	public  void setVisochina(double v) {
 		if(v >= 30.0 && v <= 230.0)
 			visochina = v;
 	}
 	
 		public void print() {
-			System.out.println("Àç ñúì " + ime + ".");
-			System.out.println("Âèñîê ñúì " + visochina + " ñì.");
-			System.out.println("Êàðàì ñêè " + markanaskite + " , êîèòî ñà äúëãè " + duljinanaskite + " ñì.");
+			System.out.println("ÐÐ· ÑÑŠÐ¼ " + ime + ".");
+			System.out.println("Ð’Ð¸ÑÐ¾Ðº ÑÑŠÐ¼ " + visochina + " ÑÐ¼.");
+			System.out.println("ÐšÐ°Ñ€Ð°Ð¼ ÑÐºÐ¸ " + markanaskite + " , ÐºÐ¾Ð¸Ñ‚Ð¾ ÑÐ° Ð´ÑŠÐ»Ð³Ð¸ " + duljinanaskite + " ÑÐ¼.");
 			
 		}
 	}
