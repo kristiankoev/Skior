@@ -9,11 +9,11 @@ public class Geroi {
 	
 	//Конструктори
 	
-	public Geroi (){
+	public Geroi () {
 		
 	}
 	
-	public Geroi (String i){
+	public Geroi (String i) {
 		ime  = i;
 	}
 	
@@ -22,8 +22,6 @@ public class Geroi {
 		 visochina = v;
 		 duljinanaskite= d;
 		 markanaskite = m;
-		 
-		
 	}
 	
 	
